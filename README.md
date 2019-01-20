@@ -2,7 +2,7 @@
 
 配方： ℞ **quick**
 
-[Rime](http://rime.im) 速成輸入方案
+[Rime](https://rime.im) 速成輸入方案
 
 速成取倉頡碼的首尾二碼
 
