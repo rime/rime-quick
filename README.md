@@ -14,6 +14,14 @@
 
 ## 安裝
 
-[東風破](https://github.com/rime/plum) 安裝口令： `bash rime-install quick`
+[東風破](https://github.com/rime/plum) 安裝口令： `bash rime-install quick cangjie`
+
+構建時依賴（Build dependency）：
+
+  - [倉頡](https://github.com/rime/rime-cangjie) ℞ **`cangjie`**
+
+編譯速成輸入法詞典時，要用到倉頡配方包中的 `cangjie5.base.dict.yaml` 碼表文件；
+
+製成 `quick5.*.bin` 後，使用速成輸入法打字不再需要倉頡方案、詞典。
 
 授權條款：見 [LICENSE](LICENSE)
