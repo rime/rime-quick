@@ -5,8 +5,6 @@ name: "quick5"
 version: "1.0"
 sort: by_weight
 use_preset_vocabulary: true
-max_phrase_length: 7
-min_phrase_weight: 100
 # 導入倉頡五代基礎碼表及速成增補字表
 import_tables:
   - cangjie5.base
