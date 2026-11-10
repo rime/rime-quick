@@ -82,7 +82,11 @@ reverse_lookup:
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
   comment_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+    - 'xform/( |^)([^z][a-z]+)(?=$| )/\1\2〔\U\2\E〕/'
+    - 'xform/( |^)([^z])\w+(\w)(?=〔|$)/\1\2\3/'
+    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符～|"
+    - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+    - 'xform/ /、/'
 
 punctuator:
   import_preset: default
